@@ -5,7 +5,7 @@
         <fieldset>
             <div class="control-group">
                 <select id="status" name="status" class="form-control cm-required" required>
-                    <option value="">__('select_status')</option>
+                    <option value="">{__('select_status')}</option>
                     {foreach from=$statuses_array key="code" item="status_name"}
                     <option value="{$code}">{$status_name}</option>
                     {/foreach}
